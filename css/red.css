@@ -1,0 +1,30 @@
+body{
+    /*Este es el fondo verde dinámico*/
+    background: linear-gradient(-45deg, #ffbebe, #ff8e8e, #851f08, #ca3413);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#logo{
+    background: #ca3413;
+}
+
+#menu ul li:hover{
+    background: #ca3413;
+}
+
+.button-more{
+    background: #ca3413;
+}
